@@ -1,3 +1,3 @@
-﻿float numberA = new Random().Next(1, 10);
-float numberB = new Random().Next(1, 10);
+﻿float numberA = 12;
+float numberB = 5;
 Console.WriteLine(numberA / numberB);
