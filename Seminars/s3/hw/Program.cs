@@ -1,4 +1,7 @@
-﻿// Ex1:
+﻿// Dear teacher, my programs are badly brought up, sorry for this, it's just more fun for me. Best regards Viktor
+
+
+//  Ex1:
 // while(true){
 //     Console.Write("Enter Num: ");
 //     string s = Console.ReadLine();
@@ -8,7 +11,7 @@
 //             Console.Write("Yes it's poliiiiiiIIIIIIIndrommm my boy: " + s);
 //             break;
 //         }else{
-//             Console.WriteLine("Offff course! Who do you want to throw!? Try again beach!))");
+//             Console.WriteLine("Offff course! Who do you want to throw!? Try again!))");
 //             continue;
 //         }
 // 
