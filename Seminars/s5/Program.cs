@@ -72,18 +72,20 @@
 
 
 // Ex3:
-double[] CreateArr(){
+double[] CreateArr()
+{
     double[] arr = new double[5];
     Random rnd = new Random();
     for (int i = 0; i < 5; i++)
     {
-        arr[i] = Convert.ToDouble(rnd.Next(-1000, 1000)/10.0);
+        arr[i] = Convert.ToDouble(rnd.Next(-1000, 1000) / 10.0);
     }
 
     return arr;
 }
 
-void ViewArr(double[] arr){
+void ViewArr(double[] arr)
+{
     Console.Write("Arr is: ");
     for (int i = 0; i < 5; i++)
     {
@@ -92,13 +94,14 @@ void ViewArr(double[] arr){
     Console.WriteLine();
 }
 
-void MinMaxDiff(double[] arr){
+void MinMaxDiff(double[] arr)
+{
     double max = arr[0];
     double min = arr[0];
     for (int i = 0; i < 5; i++)
     {
-       if(max < arr[i])max = arr[i];
-       if(min > arr[i])min = arr[i];
+        if (max < arr[i]) max = arr[i];
+        if (min > arr[i]) min = arr[i];
     }
     Console.WriteLine($"Difference between Max - {max} and Min - {min} num in arr = {max - min}");
 }
