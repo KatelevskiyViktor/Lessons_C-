@@ -32,16 +32,16 @@ while(true){
         Console.WriteLine("Enter b1, or \"end\" to exit: ");
         string value = Console.ReadLine();
         if(value == "end")break;
-        double b1 = double.Parse(value);
+        int b1 = int.Parse(value);
         Console.WriteLine("Enter k1: ");
-        double k1 = double.Parse(Console.ReadLine());
+        int k1 = int.Parse(Console.ReadLine());
         Console.WriteLine("Enter b2: ");
-        double b2 = double.Parse(Console.ReadLine());
+        int b2 = int.Parse(Console.ReadLine());
         Console.WriteLine("Enter k2: ");
-        double k2 = double.Parse(Console.ReadLine()); 
-        var x = (b2 - b1) / (k1 - k2);
+        int k2 = int.Parse(Console.ReadLine()); 
+        var x =(double) (b2 - b1) / (k1 - k2);
          
-         var y = (k1 * x) + b1;
+        var y = (k1 * x) + b1;
 
         Console.WriteLine($"Your point is: ({x};{y})");
         continue;
