@@ -1,4 +1,6 @@
-﻿List<List<int>> groups = new List<List<int>>();
+﻿//My ugly version, try not go crazy =))
+
+List<List<int>> groups = new List<List<int>>();
 List<int> group = new List<int>();
 int mark = 0;
 
